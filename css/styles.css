@@ -1,3 +1,25 @@
 .green {
   background-color: green;
 }
+
+.navbar {
+  list-style-type: none;
+  background-color: lightgreen;
+  width: 200px;
+  padding-left: 10px;
+}
+
+.navbarline {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+      color: black;
+}
+
+.navbarline:hover {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: green;
+    background-color: tan;
+}
