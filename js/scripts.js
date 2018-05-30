@@ -1,4 +1,24 @@
 $(document).ready(function() {
+
+//
+// Cats vs Dogs scripts
+//
+
+$("button#meowbutton").click(function(){
+  $("ul#meowcall").prepend("<li>Meow!</li>");
+  $("ul#barkcall").prepend("<li>Bark!</li>");
+})
+
+$("button#barkbutton").click(function(){
+  $("ul#meowcall").prepend("<li>Meow!</li>");
+  $("ul#barkcall").prepend("<li>Bark!</li>");
+})
+
+
+//
+// Talk to webpage functions
+//
+
   $("button#hello").click(function() {
     $("ul#user").prepend("<li>Hello!</li>");
     $("ul#webpage").prepend("<li>Howdy!</li>");
@@ -19,6 +39,11 @@ $("ul#webpage").children("li").first().click(function() {
     $("ul#user").prepend("<li>Stop copying me!</li>");
     $("ul#webpage").prepend("<li>Wut?</li>");
   });
+
+
+//
+// DOM selector/removal practice functions
+//
 
   $("#talktitle").click(function(){
     $("h1").addClass("green");

@@ -1,3 +1,7 @@
+/**************************/
+/*   styles for navbar   */
+/************************/
+
 .green {
   background-color: green;
 }
@@ -6,7 +10,9 @@
   list-style-type: none;
   background-color: lightgreen;
   width: 200px;
-  padding-left: 10px;
+  padding: 0;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 .navbarline {
@@ -22,4 +28,17 @@
     font-weight: bold;
     color: green;
     background-color: tan;
+}
+
+
+/**************************/
+/* styles for cat vs dog */
+/************************/
+
+#cvdtitle {
+  text-align: center;
+}
+
+.cvdimgs {
+  height: 200px;
 }
