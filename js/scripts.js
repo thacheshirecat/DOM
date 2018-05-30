@@ -15,7 +15,7 @@ $("button#barkbutton").click(function(){
 })
 
 $("#moreanimals").click(function(){
-  $("p#moreanimalselement").before(img)
+  $("#fuckthisbullshit").toggle();
 })
 
 //
