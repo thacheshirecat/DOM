@@ -14,6 +14,9 @@ $("button#barkbutton").click(function(){
   $("ul#barkcall").prepend("<li>Bark!</li>");
 })
 
+$("#moreanimals").click(function(){
+  $("p#moreanimalselement").before(img)
+})
 
 //
 // Talk to webpage functions

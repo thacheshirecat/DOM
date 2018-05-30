@@ -7,6 +7,7 @@
 }
 
 .navbar {
+  float: left;
   list-style-type: none;
   background-color: lightgreen;
   width: 200px;
@@ -41,4 +42,15 @@
 
 .cvdimgs {
   height: 200px;
+}
+
+#moreanimals {
+  color: blue;
+  text-decoration: underline;
+}
+
+#moreanimals:hover {
+  color: lightblue;
+  text-decoration: underline;
+  cursor: pointer;
 }
