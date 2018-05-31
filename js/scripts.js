@@ -25,7 +25,7 @@ $("#moreanimals").click(function(){
 $("#lessanimals").click(function() {
   $("#animalpictextmore").toggle();
   $("#animalpictextless").toggle();
-  $(animalpic).remove();
+  $(animalpic).parentNode.removeChild(animalpic);
 });
 
 var animalpic = document.createElement("img");
