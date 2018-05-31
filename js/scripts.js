@@ -4,19 +4,32 @@ $(document).ready(function() {
 // Cats vs Dogs scripts
 //
 
+
+
 $("button#meowbutton").click(function(){
   $("ul#meowcall").prepend("<li>Meow!</li>");
   $("ul#barkcall").prepend("<li>Bark!</li>");
-})
+});
 
 $("button#barkbutton").click(function(){
   $("ul#meowcall").prepend("<li>Meow!</li>");
   $("ul#barkcall").prepend("<li>Bark!</li>");
-})
+});
 
 $("#moreanimals").click(function(){
-  $("#fuckthisbullshit").toggle();
-})
+  $(".moreanimalselement").after(animalpic);
+  $("#animalpictextless").toggle();
+  $("#animalpictextmore").toggle();
+});
+
+$("#lessanimals").click(function() {
+  $("#animalpictextmore").toggle();
+  $("#animalpictextless").toggle();
+  $(animalpic).remove();
+});
+
+var animalpic = document.createElement("img");
+animalpic.src = "img/moreanimals.jpg";
 
 //
 // Talk to webpage functions

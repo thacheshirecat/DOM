@@ -35,9 +35,11 @@
 /**************************/
 /* styles for cat vs dog */
 /************************/
-#fuckthisbullshit {
+
+#animalpictextless {
   display: none;
 }
+
 
 #cvdtitle {
   text-align: center;
@@ -53,6 +55,17 @@
 }
 
 #moreanimals:hover {
+  color: lightblue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#lessanimals {
+  color: blue;
+  text-decoration: underline;
+}
+
+#lessanimals:hover {
   color: lightblue;
   text-decoration: underline;
   cursor: pointer;
